@@ -1,0 +1,150 @@
+
+        /* Add your CSS styles here */
+        /* For example, you can style the product image and button */
+
+
+
+        
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #e2a7a7;
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+  
+}
+
+h1 {
+	font-size: 8vw;
+	font-weight: 66600;
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: .2em;
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%); 
+}
+
+p {
+	font-size: 2vw;
+	font-weight: 900;
+	margin-top: 1em;
+	text-align: center;
+	span {
+		display: block;
+		transform: rotate(90deg);
+		margin-top: .25em;
+	}
+}
+
+
+.container {
+
+	display: flex;
+	align-items:end;
+	justify-content: center;
+	
+}
+
+
+        
+        .text{
+          display: block;
+           margin: 5%;
+           background-color: black;
+           color:azure;
+           text-align: center;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+     
+        img {
+            
+            display: block;
+           margin: 0%;
+            
+        }
+
+        button {
+            padding: 25px;
+            background-color: #06ec0e;
+            color: white;
+            border: 10px;;
+            border-radius: 25px;
+            cursor: pointer;
+            width:30%;
+  margin: auto;
+  display: flex;
+           justify-content: center;
+           align-items:start;
+        }
+.x{
+  display:bottom;
+  width:100%;
+  margin:100px;
+  display: flex;
+   justify-content: center;
+    align-items: center;
+    border: #000 
+}
+
+#imageContainer {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: transform 0.5s ease;
+  white-space: nowrap;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+#scrollButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.body{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUU_i_cWKXLAyQrVjvjP93xKykkhCcViEpdjXgR1xmxit5Qnn0k43GR5uoDYZdY7qgJsI&usqp=CAU');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
